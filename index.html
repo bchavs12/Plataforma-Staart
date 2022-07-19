@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
     <title> Portfolio | Staart </title>
@@ -14,12 +14,15 @@
                 <li>
                     <a href="#formacao">Formação</a>
                 </li>
+
                 <li>
                     <a href="#projetos">Projetos</a>
                 </li>
+
                 <li>
                     <a href="#habilidades">Habilidades<a>
                 </li>
+
             </ul>
         </nav>
 
@@ -30,16 +33,15 @@
     <main>
         <section>
 
-            <article id="formacao">
-                <h2>Formação</h2>
+            <article>
+                <h2 id="formacao">Formação</h2>
                 <h3>Digital House</h3>
                 <p>Sofware Developer (Full Stack)</p>
             </article>
 
-            <article id="projetos">
-                <h2>Projetos</h2>
+            <article>
+                <h2 id="projetos">Projetos</h2>
                 <ul>
-                    <h3>Layouts HTML é CSS</h3>
                     <li>PetShop</li>
                     <li>GameShop</li>
                     <li>SocialLinks</li>
@@ -48,8 +50,8 @@
                 </ul>
             </article>
 
-            <article id="habilidades">
-                <h2>
+            <article>
+                <h2 id="habilidades">
                     Habilidades
                 </h2>
                 <ul>
@@ -66,7 +68,7 @@
                         <img src="img/bootstrap.svg" alt="BootStrap">
                     </li>
                     <li>
-                        <img src="img/git.svg" alt="Versionamento de código">
+                        <img src="img/git.svg" alt="Git">
                     </li>
                 </ul>
             </article>
@@ -78,6 +80,19 @@
 
     <footer>
         <h2> Entre em contato </h2>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome">Nome:</label><input type="text" id="nome" placeholder="Digite seu nome">
+                <label for="email">E-mail:</label><input type="email" id="email" placeholder="email@email.com.br">
+            </fieldset>
+            <fieldset>
+                <legend>Dados comerciais</legend>
+                <label for="tel">Telefone</label><input type="tel" id="tel" placeholder="DDD-0000-0000">
+                <label for="url">Website</label><input type="url" id="url">
+            </fieldset>
+            <input type="submit" value="Enviar" id="submit">
+        </form>
     </footer>
 
 </body>
